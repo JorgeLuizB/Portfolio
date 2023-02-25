@@ -1,0 +1,7 @@
+.destaque{
+    border: 1px solid var(--roxo-claro-transparente);
+    background-color: var(--preto);
+    box-sizing: border-box;
+    height: calc(100vh - 80px);
+    padding: 15px;
+}

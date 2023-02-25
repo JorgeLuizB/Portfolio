@@ -1,0 +1,5 @@
+.portfolio__hobbies{
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+}

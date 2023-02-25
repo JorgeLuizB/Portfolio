@@ -1,0 +1,7 @@
+.portfolio__icone{
+    position: absolute;
+    left: 16px;
+    bottom: 3rem;
+    font-size: 3rem;
+    color: var(--roxo-escuro);
+}

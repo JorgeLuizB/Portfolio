@@ -1,0 +1,38 @@
+.blob{
+    position: absolute;
+    filter: blur(5px);
+}
+.blob_esquerdo{
+    animation: morph 5s linear infinite alternate, gira-blobs-d 26s infinite linear;
+    bottom: 0;
+    left: 0;
+    scale: 1.2;
+}
+.blob_direito{
+    animation: morph 6s linear infinite alternate, gira-blobs-e 36s infinite linear;
+    right: 0;
+    scale: 1.2;
+    top: 0;
+    
+}
+@keyframes gira-blobs-d {
+    to{
+        transform: rotate(1turn);
+    }
+}
+@keyframes gira-blobs-e {
+    to{
+        transform: rotate(1turn);
+    }
+}
+@keyframes morph {
+    0% {     
+        scale: 1.2;
+        opacity: 0;            
+        }
+    100% {
+            
+        scale: 1.4;
+        opacity: 1;
+        }
+}

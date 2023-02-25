@@ -1,0 +1,59 @@
+@import url('base/reset.css');
+@import url('base/normalize.css');
+@import url('base/container.css');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&display=swap');
+
+@import url('cabecalho.css');
+
+@import url('menu/menu.css');
+@import url('menu/menu__lista.css');
+@import url('menu/menu__item.css');
+@import url('menu/menu__link.css');
+
+@import url('destaque/destaque.css');
+@import url('destaque/destaque__area-util.css');
+
+@import url('rede.social/rede-social.css');
+@import url('rede.social/rede-social__lista.css');
+@import url('rede.social/rede-social__item.css');
+@import url('rede.social/rede-social__link.css');
+
+@import url('perfil/perfil.css');
+@import url('perfil/perfil__sobre.css');
+@import url('perfil/perfil__imagem.css');
+@import url('perfil/perfil__rede-social_right.css');
+
+@import url('sobre/sobre.css');
+@import url('sobre/sobre__titulo.css');
+
+@import url('portfolio/portfolio.css');
+@import url('portfolio/portfolio__titulo.css');
+@import url('portfolio/portfolio__frame.css');
+@import url('portfolio/portfolio__skills.css');
+@import url('portfolio/portfolio__hobbies.css');
+@import url('portfolio/portfolio__icone.css');
+@import url('portfolio/portfolio__descricao.css');
+
+@import url('formacao.academica/formacao-academica.css');
+@import url('formacao.academica/formacao-academica__titulo.css');
+@import url('formacao.academica/formacao-academica__frame.css');
+@import url('formacao.academica/formacao-academica__item.css');
+@import url('formacao.academica/formacao-academica__curso.css');
+@import url('formacao.academica/formacao-academica__info.css');
+
+
+
+@import url('blob/blob.css');
+@import url('reveal.css');
+
+
+:root{
+    --roxo: #6720DB;
+    --roxo-claro: #e3e0ed;
+    --roxo-medio: #544a74;
+    --roxo-claro-transparente: #6820db75;
+    --roxo-escuro: #191031;
+    --preto: #000000;
+    --branco: #FFFFFF;
+    --cinza: #D9D9D9;
+}

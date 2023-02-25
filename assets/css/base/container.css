@@ -1,0 +1,18 @@
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.container_menu{
+    display: flex;
+    justify-content: space-between;
+}
+.container_destaque{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.container_formacao{
+    display: flex;
+    justify-content: space-between;
+}

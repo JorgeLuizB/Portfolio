@@ -1,0 +1,7 @@
+.portfolio__titulo{
+    color:var(--branco);
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 32px;
+    text-align: center;
+}

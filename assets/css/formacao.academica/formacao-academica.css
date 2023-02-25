@@ -1,0 +1,15 @@
+.formacao-academica{
+    background-color: var(--roxo-escuro);
+    padding: 32px 0 0 0;
+}
+
+.formacao-academica:after {
+    content: '';
+    -webkit-transform: skewY(-2deg);
+    transform: skewY(-2deg);
+    height: 6rem;
+    position: relative;
+    bottom: -3rem;
+    display: block;
+    background-color: var(--roxo-escuro);
+}

@@ -1,0 +1,9 @@
+.portfolio__frame{
+    background-color: var(--branco);
+    flex-shrink: 0;
+    height: 227.2px;
+    width: 227.2px;
+    position: relative;
+    box-sizing: border-box;
+
+}

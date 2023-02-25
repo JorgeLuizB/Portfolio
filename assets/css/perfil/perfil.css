@@ -1,0 +1,46 @@
+.perfil{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.perfil_thin_sm{
+    color: var(--roxo);
+    display: inline-block;
+    font-weight: 300;
+    font-size: 32px;
+    position: relative;
+    right: -4rem;
+}
+.perfil_bold{
+    font-weight: 700;
+    font-size: 68px;
+    text-transform: uppercase;
+    position: relative;
+    right: -2rem;
+}
+.perfil_color_purple{
+    color: var(--roxo);
+}
+.perfil_thin_md{
+    font-weight: 300;
+    font-size: 40px;
+    text-transform: uppercase;
+    position: relative;
+    right: -1rem;
+}
+.perfil_thin_sm:before{
+    background-image: url(../../img/linha.svg);
+    background-repeat: no-repeat;
+    content: "";
+    display: block;
+    left: -60px;
+    height: 10px;
+    position: relative;
+    top: 29px;
+    width: 50px;
+}
+.perfil_normal{
+    position: relative;
+    right: -2rem;
+}

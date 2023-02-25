@@ -1,0 +1,6 @@
+.portfolio__skills{
+    display: flex;
+    gap: 16px;
+    margin-bottom: 88px;
+    justify-content: space-between;
+}

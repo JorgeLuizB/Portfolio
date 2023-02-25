@@ -1,0 +1,11 @@
+.perfil__imagem{
+    border-radius: 50%;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url('../../img/foto.png');
+    height: 325px;
+    margin-left: 4rem;
+    width: 325px;
+    border: 1px solid var(--roxo);
+}

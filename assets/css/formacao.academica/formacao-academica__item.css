@@ -1,0 +1,9 @@
+.formacao-academica__item{
+    height: 286px;
+    background-color: var(--branco);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
