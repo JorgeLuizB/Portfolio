@@ -1,8 +1,11 @@
 .contato__imagem{
-    background: url('../../img/contato.png');
-    background-position: center;
-    background-size: cover;
+    background: #281350 url('../../img/contato.png');
+    background-position: top;
+    background-size: 100%;
     background-repeat: no-repeat;
     width: 464px;
     height: 596px;
+    border-radius: 10px ;
+    border: 1px solid var(--roxo);
+    box-shadow: 0 0 5px var(--roxo);
 }

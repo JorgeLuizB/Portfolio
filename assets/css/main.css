@@ -56,7 +56,14 @@
 @import url('contato/contato__corpo.css');
 @import url('contato/contato__titulo.css');
 @import url('contato/contato__descricao.css');
-@import url('contato/contato__formulario.css');
+
+@import url('formulario/formulario.css');
+@import url('formulario/formulario__input.css');
+@import url('formulario/formulario__textarea.css');
+@import url('formulario/formulario__label.css');
+
+
+@import url('rodape.css');
 
 @import url('botao.css');
 
@@ -67,12 +74,13 @@
 
 
 :root{
-    --roxo: #6720DB;
     --roxo-light: #dec8ff;
     --roxo-claro: #8b42ff;
+    --roxo: #6720DB;
     --roxo-medio: #544a74;
     --roxo-transparente: #6820db75;
     --roxo-escuro: #191031;
+    --roxo-form: #281350;
     --preto: #000000;
     --branco: #FFFFFF;
     --cinza-claro: #e3e0ed;

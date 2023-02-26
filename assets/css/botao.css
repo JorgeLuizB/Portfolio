@@ -5,6 +5,7 @@
 }
 .botao_primario{
     background-color: var(--roxo);
+    border: none;
     color: var(--branco);
 }
 .botao_primario:hover{
@@ -22,4 +23,8 @@
 }
 .botao_margem-esquerda-md{
     margin-left: 16px;
+}
+.botao_primario_md{
+    height: 66px;
+    border-radius: 5px;
 }

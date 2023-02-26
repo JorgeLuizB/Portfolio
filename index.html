@@ -225,16 +225,22 @@
                 <div class="contato__corpo">
                     <h2 class="contato__titulo">Contato</h2>
                     <p class="contato__descricao">Quer entrar em contato comigo? <br> Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>
-                    <form action="" class="contato__formulario">
-                        <input type="text">
-                        <input type="email">
-                        <input type="text">
-                        <textarea name="" id="" cols="30" rows="10"></textarea>
-                        <input type="submit" value="Enviar mensagem">
+                    <form action="" class="formulario">
+                        <label for="nome" class="formulario__label">Nome</label>
+                        <input type="text" class="formulario__input" id="nome">
+                        <label for="email" class="formulario__label">Email</label>
+                        <input type="email" class="formulario__input" id="email">
+                        <input type="text" class="formulario__input" placeholder="Assunto">
+                        <textarea name="" class="formulario__textarea" placeholder="Mensagem"></textarea>
+                        <input type="submit" class="botao botao_primario botao_primario_md" value="Enviar mensagem">
                     </form>
                 </div>
             </div>
         </section>
+
+        <footer class="rodape">
+            <p>Desenvolvido por Jorge Luiz<br>2023</p>
+        </footer>
 
         <script src="assets/css/reveal.js"></script>
     
