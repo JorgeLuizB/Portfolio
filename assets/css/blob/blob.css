@@ -1,6 +1,6 @@
 .blob{
-    position: absolute;
     filter: blur(5px);
+    position: absolute;
 }
 .blob_esquerdo{
     animation: morph 5s linear infinite alternate, gira-blobs-d 26s infinite linear;
@@ -27,12 +27,12 @@
 }
 @keyframes morph {
     0% {     
-        scale: 1.2;
         opacity: 0;            
+        scale: 1.2;
         }
     100% {
             
-        scale: 1.4;
         opacity: 1;
+        scale: 1.4;
         }
 }

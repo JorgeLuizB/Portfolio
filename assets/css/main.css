@@ -3,7 +3,8 @@
 @import url('base/container.css');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&display=swap');
 
-@import url('cabecalho.css');
+@import url('cabecalho/cabecalho.css');
+@import url('cabecalho/cabecalho__logo.css');
 
 @import url('menu/menu.css');
 @import url('menu/menu__lista.css');
@@ -49,6 +50,13 @@
 @import url('experiencia.profissional/experiencia-profissional__descricao-info.css');
 @import url('experiencia.profissional/experiencia-profissional__preview.css');
 @import url('experiencia.profissional/experiencia-profissional__imagem.css');
+
+@import url('contato/contato.css');
+@import url('contato/contato__imagem.css');
+@import url('contato/contato__corpo.css');
+@import url('contato/contato__titulo.css');
+@import url('contato/contato__descricao.css');
+@import url('contato/contato__formulario.css');
 
 @import url('botao.css');
 
