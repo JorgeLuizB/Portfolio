@@ -41,6 +41,17 @@
 @import url('formacao.academica/formacao-academica__curso.css');
 @import url('formacao.academica/formacao-academica__info.css');
 
+@import url('experiencia.profissional/experiencia-profissional.css');
+@import url('experiencia.profissional/experiencia-profissional__titulo.css');
+@import url('experiencia.profissional/experiencia-profissional__item.css');
+@import url('experiencia.profissional/experiencia-profissional__info.css');
+@import url('experiencia.profissional/experiencia-profissional__titulo-info.css');
+@import url('experiencia.profissional/experiencia-profissional__descricao-info.css');
+@import url('experiencia.profissional/experiencia-profissional__preview.css');
+@import url('experiencia.profissional/experiencia-profissional__imagem.css');
+
+@import url('botao.css');
+
 
 
 @import url('blob/blob.css');
@@ -49,11 +60,13 @@
 
 :root{
     --roxo: #6720DB;
-    --roxo-claro: #e3e0ed;
+    --roxo-light: #dec8ff;
+    --roxo-claro: #8b42ff;
     --roxo-medio: #544a74;
-    --roxo-claro-transparente: #6820db75;
+    --roxo-transparente: #6820db75;
     --roxo-escuro: #191031;
     --preto: #000000;
     --branco: #FFFFFF;
+    --cinza-claro: #e3e0ed;
     --cinza: #D9D9D9;
 }

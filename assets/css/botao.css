@@ -1,0 +1,25 @@
+.botao{
+    display: inline-block;
+    padding: 16px;
+    text-decoration: none;
+}
+.botao_primario{
+    background-color: var(--roxo);
+    color: var(--branco);
+}
+.botao_primario:hover{
+    background-color: var(--roxo-claro);
+}
+.botao_secundario{
+    border: 1px solid var(--roxo);
+    color: var(--roxo);
+}
+.botao_secundario:hover{
+    background-color: var(--roxo-light);
+}
+.botao_margem-direita-md{
+    margin-right: 16px;
+}
+.botao_margem-esquerda-md{
+    margin-left: 16px;
+}

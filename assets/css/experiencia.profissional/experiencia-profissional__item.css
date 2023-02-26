@@ -1,0 +1,16 @@
+.experiencia-profissional__item{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+.experiencia-profissional__item:nth-child(n){
+    flex-direction: row-reverse;
+    order: 1;
+    text-align: right;
+}
+.experiencia-profissional__item:nth-child(2n){
+    flex-direction: row;
+    order: 0;
+    text-align: left;
+}

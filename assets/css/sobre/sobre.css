@@ -1,6 +1,6 @@
 .sobre{
     padding:  64px 0;
-    background-color: #e3e0ed;
-    color: #191031;
+    background-color: var(--cinza-claro);
+    color: var(--roxo-escuro);
     font-weight: 500;
 }

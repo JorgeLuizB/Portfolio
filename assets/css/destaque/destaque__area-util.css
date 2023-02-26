@@ -1,7 +1,7 @@
 .destaque__area-util{
     background: linear-gradient(103.01deg, var(--roxo-escuro) 6.25%, var(--preto) 98.42%), url('../../img/ruido.png');
     box-sizing: border-box;
-    border: 1px solid var(--roxo-claro-transparente);
+    border: 1px solid var(--roxo-transparente);
     height: 100%;
     position: relative;
     width: 100%;

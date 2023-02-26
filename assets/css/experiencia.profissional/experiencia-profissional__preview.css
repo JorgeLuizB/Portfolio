@@ -1,0 +1,7 @@
+.experiencia-profissional__preview{
+    border: 1px solid var(--roxo-transparente);
+    border-radius: 10px;
+    height: 420px;
+    overflow: hidden;
+    width: 800px;
+}
