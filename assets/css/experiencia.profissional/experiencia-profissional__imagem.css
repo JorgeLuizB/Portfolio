@@ -2,3 +2,8 @@
     height: 100%;
     width: 100%;
 }
+@media screen and (max-width:768px) {
+    .experiencia-profissional__imagem{
+        border-radius: 5px;
+    }
+}

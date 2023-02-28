@@ -2,3 +2,9 @@
     color: var(--branco);
     text-align: right;
 }
+
+@media (max-width:768px) {
+    .perfil__sobre{
+        text-align: center;
+    }
+}

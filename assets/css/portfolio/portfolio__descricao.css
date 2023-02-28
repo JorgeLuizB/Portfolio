@@ -1,7 +1,7 @@
 .portfolio__descricao{
-    position: absolute;
     bottom: 16px;
+    font-weight: 500;
     left: 16px;
     margin: 0;
-    font-weight: 500;
+    position: absolute;
 }

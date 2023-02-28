@@ -62,15 +62,12 @@
 @import url('formulario/formulario__textarea.css');
 @import url('formulario/formulario__label.css');
 
-
 @import url('rodape.css');
 
 @import url('botao.css');
 
-
-
 @import url('blob/blob.css');
-@import url('reveal.css');
+@import url('mostraTextos.css');
 
 
 :root{

@@ -5,11 +5,17 @@
 
 .formacao-academica:after {
     content: '';
-    -webkit-transform: skewY(-2deg);
-    transform: skewY(-2deg);
+    bottom: -3rem;
+    background-color: var(--roxo-escuro);
+    display: block;
     height: 6rem;
     position: relative;
-    bottom: -3rem;
-    display: block;
-    background-color: var(--roxo-escuro);
+    transform: skewY(-2deg);
+    -webkit-transform: skewY(-2deg);
+}
+@media screen and (max-width:768px) {
+    .formacao-academica:after{
+        height: 3rem;
+        bottom: -2rem;
+    }
 }

@@ -1,21 +1,24 @@
 .formulario__textarea{
+    background-color: var(--roxo-form);
+    border: none;
+    border-bottom: 1px solid var(--branco);
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: var(--roxo);
     display: inline-block;
     height: 133px;
     margin-bottom: 32px;
-    box-sizing: border-box;
-    padding: 5px;
-    border: none;
     outline: none;
-    background-color: var(--roxo-form);
-    color: var(--roxo);
+    padding: 5px;
     resize: vertical;
-    border-bottom: 1px solid var(--branco);
-    border-radius: 5px;
+}
+.formulario__textarea:focus{
+    border-color: var(--roxo);
 }
 
 .formulario__textarea::placeholder{
+    color: var(--roxo);
     font-size: 16px;
     font-family: 'Raleway',sans-serif;
     font-weight: 400;
-    color: var(--roxo);
 }

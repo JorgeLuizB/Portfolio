@@ -15,9 +15,9 @@
 .perfil_bold{
     font-weight: 700;
     font-size: 68px;
-    text-transform: uppercase;
     position: relative;
     right: -2rem;
+    text-transform: uppercase;
 }
 .perfil_color_purple{
     color: var(--roxo);
@@ -25,17 +25,17 @@
 .perfil_thin_md{
     font-weight: 300;
     font-size: 40px;
-    text-transform: uppercase;
     position: relative;
     right: -1rem;
+    text-transform: uppercase;
 }
 .perfil_thin_sm:before{
     background-image: url(../../img/linha.svg);
     background-repeat: no-repeat;
     content: "";
     display: block;
-    left: -60px;
     height: 10px;
+    left: -60px;
     position: relative;
     top: 29px;
     width: 50px;
@@ -43,4 +43,47 @@
 .perfil_normal{
     position: relative;
     right: -2rem;
+}
+@media screen and (max-width:375px) {
+    .perfil{
+        display: block;
+    }
+    .perfil_bold{
+        position: static;
+        font-size: 42px;
+    }
+    .perfil_normal, .perfil_thin_md, .perfil_thin_sm{
+        position: static;
+    }
+    .perfil_thin_md{
+        position: static;
+        font-size: 28px;
+    }
+    .perfil_color_purple{
+        display: block;
+    }
+    .perfil_thin_sm{
+        font-size: 28px;
+    }
+    
+}
+
+@media screen and (min-width:376px) and (max-width:768px) {
+    .perfil{
+        display: block;
+    }
+    .perfil_bold{
+        position: static;
+        font-size: 48px;
+    }
+    .perfil_normal, .perfil_thin_md, .perfil_thin_sm{
+        position: static;
+    }
+    .perfil_thin_md{
+        position: static;
+        font-size: 36px;
+    }
+    .perfil_color_purple{
+        display: block;
+    }
 }

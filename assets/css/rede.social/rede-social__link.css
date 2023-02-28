@@ -5,9 +5,3 @@
 .rede-social__link:hover{
     color: var(--roxo);
 }
-
-/*.rede-social__item:has(.rede-social__link:hover) {
-    background: url('../../img/link-seta-hover.svg');
-    background-position: center right;
-    background-repeat: no-repeat;
-}*/

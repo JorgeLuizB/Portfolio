@@ -2,3 +2,9 @@
     background-color: var(--roxo-escuro);
     padding: 64px 0;
 }
+
+@media screen and (max-width:768px) {
+    .contato{
+        padding: 2rem 0;
+    }
+}

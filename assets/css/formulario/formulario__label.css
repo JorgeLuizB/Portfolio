@@ -1,8 +1,8 @@
 .formulario__label{
+    color: var(--branco);
     font-size: 12px;
     font-family: 'Raleway',sans-serif;
     font-weight: 400;
-    color: var(--branco);
     margin-bottom: -20px;
     margin-left: 5px;
     position: relative;

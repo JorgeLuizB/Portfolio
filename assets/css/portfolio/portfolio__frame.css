@@ -1,9 +1,19 @@
 .portfolio__frame{
     background-color: var(--branco);
+    box-sizing: border-box;
     flex-shrink: 0;
     height: 227.2px;
-    width: 227.2px;
     position: relative;
-    box-sizing: border-box;
+    width: 227.2px;
 
+
+}
+
+@media screen and (max-width:768px) {
+    .portfolio__frame{
+        width: 150px;
+        height: 150px;
+        flex-grow: 1;
+        border-radius: 10px;
+    }
 }

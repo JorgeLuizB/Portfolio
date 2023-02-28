@@ -1,6 +1,12 @@
 .sobre{
-    padding:  64px 0;
     background-color: var(--cinza-claro);
+    box-sizing: border-box;
     color: var(--roxo-escuro);
     font-weight: 500;
+    padding: 64px 0;
+}
+@media screen and (max-width:768px) {
+    .sobre{
+        padding: 2rem 16px;;
+    }
 }

@@ -1,4 +1,9 @@
 .portfolio{
-    background-color: var(--roxo-medio); /*#544a74 essa cor é mais forte, mais combina tbm essa #6c6583*/
+    background-color: var(--roxo-medio);
     padding: 5rem 0;
+}
+@media screen and (max-width:768px) {
+    .portfolio{
+        padding: 3rem 0;
+    }
 }

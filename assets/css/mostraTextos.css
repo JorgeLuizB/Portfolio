@@ -1,11 +1,11 @@
-.reveal{
+.mostra-texto{
+    opacity: 0;
     position: relative;
     transform: translateY(150px);
-    opacity: 0;
     transition: 1s all ease;
   }
   
-.reveal.reveal_active{
-    transform: translateY(0);
+.mostra-texto.mostra-texto_ativo{
     opacity: 1;
+    transform: translateY(0);
 }

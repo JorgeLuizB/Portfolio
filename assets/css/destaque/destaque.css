@@ -5,3 +5,13 @@
     height: calc(100vh - 80px);
     padding: 15px;
 }
+@media screen and (max-width:375px){
+    .destaque{
+        height: calc(100vh - 70px);
+    }
+}
+@media screen and (max-width:768px) {
+    .destaque{
+        padding: 0;
+    }
+}

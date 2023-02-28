@@ -3,3 +3,9 @@
     gap: 2rem;
     list-style: none;
 }
+
+@media (max-width:768px) {
+    .menu__lista{
+        display: none;
+    }
+}

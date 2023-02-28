@@ -3,8 +3,8 @@
     box-sizing: border-box;
     border: 1px solid var(--roxo-transparente);
     height: 100%;
+    overflow: hidden;
     position: relative;
     width: 100%;
-    overflow: hidden;
 
 }

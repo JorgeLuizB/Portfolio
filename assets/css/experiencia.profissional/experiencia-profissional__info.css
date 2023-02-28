@@ -1,3 +1,8 @@
 .experiencia-profissional__info{
     width: 368px;
 }
+@media screen and (max-width:768px){
+    .experiencia-profissional__info{
+        margin: 0 auto;
+    }
+}

@@ -1,5 +1,11 @@
 .rede-social__lista{
     display: flex;
-    justify-content: right;
     gap: 2rem;
+    justify-content: right;
+}
+@media (max-width:768px) {
+    .rede-social__lista{
+        gap: 1rem;
+        justify-content: center;
+    }
 }

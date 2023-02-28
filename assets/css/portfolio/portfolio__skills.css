@@ -1,6 +1,14 @@
 .portfolio__skills{
     display: flex;
     gap: 16px;
-    margin-bottom: 88px;
     justify-content: space-between;
+    margin-bottom: 88px;
+}
+@media (max-width:768px) {
+    .portfolio__skills{
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 16px;
+        margin-bottom: 2rem;
+    }
 }

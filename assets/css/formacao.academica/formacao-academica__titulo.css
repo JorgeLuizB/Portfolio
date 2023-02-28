@@ -1,7 +1,13 @@
 .formacao-academica__titulo{
-    text-align: center;
-    font-size: 32px;
-    font-weight: 700;
-    margin: 32px 0;
     color: var(--branco);
+    font-weight: 700;
+    font-size: 32px;
+    margin: 32px 0;
+    text-align: center;
+}
+
+@media screen and (max-width:768px) {
+    .formacao-academica__titulo{
+        margin: 0;
+    }
 }

@@ -1,21 +1,21 @@
 .formulario__input{
+    background-color: var(--roxo-form);
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid var(--branco);
+    color: var(--roxo);
     height: 56px;
     margin-bottom: 32px;
-    box-sizing: border-box;
-    padding: 5px;
-    border: none;
     outline: none;
-    background-color: var(--roxo-form);
-    color: var(--roxo);
-    border-bottom: 1px solid var(--branco);
-    border-radius: 5px;
+    padding: 5px;
 }
 .formulario__input:focus{
     border-color: var(--roxo);
 }
 .formulario__input::placeholder{
     font-size: 16px;
+    color: var(--roxo);
     font-family: 'Raleway',sans-serif;
     font-weight: 400;
-    color: var(--roxo);
 }

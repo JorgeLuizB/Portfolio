@@ -1,3 +1,12 @@
 .formacao-academica__frame{
     width: 389.33px;
 }
+
+@media screen and (max-width:768px) {
+    .formacao-academica__frame{
+        margin-bottom: 2rem;
+    }
+    .formacao-academica__frame:last-child{
+        margin-bottom: 0;
+    }
+}
