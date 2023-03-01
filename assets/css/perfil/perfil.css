@@ -44,13 +44,13 @@
     position: relative;
     right: -2rem;
 }
-@media screen and (max-width:375px) {
+@media screen and (max-width:415px) {
     .perfil{
         display: block;
     }
     .perfil_bold{
-        position: static;
         font-size: 42px;
+        position: static;
     }
     .perfil_normal, .perfil_thin_md, .perfil_thin_sm{
         position: static;
@@ -68,20 +68,21 @@
     
 }
 
-@media screen and (min-width:376px) and (max-width:768px) {
-    .perfil{
-        display: block;
-    }
+@media screen and (min-width:416px) and (max-width:768px) {
     .perfil_bold{
         position: static;
         font-size: 48px;
     }
-    .perfil_normal, .perfil_thin_md, .perfil_thin_sm{
+    .perfil_normal{
         position: static;
     }
     .perfil_thin_md{
+        font-size: 30px;
         position: static;
-        font-size: 36px;
+    }
+    .perfil_thin_sm{
+        display: none;
+        position: static;
     }
     .perfil_color_purple{
         display: block;

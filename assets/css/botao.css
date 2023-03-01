@@ -27,4 +27,5 @@
 .botao_primario_md{
     border-radius: 5px;
     height: 66px;
+    cursor: pointer;
 }

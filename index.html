@@ -216,7 +216,7 @@
            </div>
         </section>
 
-        <section class="contato">
+        <section class="contato" id="contato">
             <div class="container container_contato">
                 <div class="contato__imagem">
 
@@ -224,14 +224,14 @@
                 <div class="contato__corpo">
                     <h2 class="contato__titulo">Contato</h2>
                     <p class="contato__descricao">Quer entrar em contato comigo? <br> Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>
-                    <form action="" class="formulario">
+                    <form class="formulario" id="formulario" autocomplete="off">
                         <label for="nome" class="formulario__label">Nome</label>
-                        <input type="text" class="formulario__input" id="nome">
+                        <input type="text" maxlength="50" required class="formulario__input" id="input-nome">
                         <label for="email" class="formulario__label">Email</label>
-                        <input type="email" class="formulario__input" id="email">
-                        <input type="text" class="formulario__input" placeholder="Assunto">
-                        <textarea name="" class="formulario__textarea" placeholder="Mensagem"></textarea>
-                        <input type="submit" class="botao botao_primario botao_primario_md" value="Enviar mensagem">
+                        <input type="email" required class="formulario__input" id="input-email">
+                        <input type="text" required class="formulario__input" id="input-assunto" placeholder="Assunto">
+                        <textarea required maxlength="300" class="formulario__textarea" placeholder="Mensagem" id="txtarea-msg"></textarea>
+                        <input type="submit" name="input-botao" class="botao botao_primario botao_primario_md" value="Enviar mensagem">
                     </form>
                 </div>
             </div>
@@ -240,5 +240,6 @@
             <p>Desenvolvido por Jorge Luiz<br>2023</p>
         </footer>
         <script src="assets/js/mostraTexto.js"></script>
+        <script src="assets/js/app.js"></script>
 </body>
 </html>

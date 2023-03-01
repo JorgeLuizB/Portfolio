@@ -10,7 +10,7 @@
     margin-bottom: 32px;
     outline: none;
     padding: 5px;
-    resize: vertical;
+    resize:none;
 }
 .formulario__textarea:focus{
     border-color: var(--roxo);

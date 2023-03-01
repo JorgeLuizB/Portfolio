@@ -177,6 +177,10 @@ input {
     overflow: visible;
 }
 
+input:valid{
+    border-color: greenyellow;
+}
+
 /**
    * Remove the inheritance of text transform in Edge, Firefox, and IE.
    * 1. Remove the inheritance of text transform in Firefox.

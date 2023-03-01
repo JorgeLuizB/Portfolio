@@ -6,7 +6,12 @@
     position: relative;
     width: 227.2px;
 
-
+}
+.portfolio__frame{
+    border-radius: 10px;
+    box-shadow: 2px 5px 10px var(--roxo-escuro);
+    border: 1px solid var(--roxo);
+    border-radius: 10px;
 }
 
 @media screen and (max-width:768px) {
